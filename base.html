@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме - Ворона Микола Геннадійович</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Подключение Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Резюме</h1>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="nav-link" href="#about">О собі</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Досвід роботи</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Навички</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Контактна інформація</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Розділ "О собі" -->
+      <section id="about">
+        <h2>О собі</h2>
+        <p><strong>Ім'я:</strong> Ворона Микола Геннадійович</p>
+        <p><strong>Вік:</strong> 24</p>
+        <p><strong>Посада:</strong> Менеджер інтернет-магазину</p>
+        <p>
+          Маю більше 2 років досвіду роботи з клієнтами та в інтернет-магазинах
+          на різних платформах (Prom, Rozetka, OLX, IZI). Мій рівень взаємодії з
+          клієнтами — високий: легко знаходжу спільну мову, швидко вирішую
+          проблеми та забезпечую найвищий рівень задоволення клієнтів. Жодного
+          разу не отримував скарг від клієнтів. Успішно працюю з
+          XML-прайс-листами, оперативно додаю товари на сайти та професійно
+          шукаю потрібну інформацію в інтернеті.
+        </p>
+      </section>
+
+      <!-- Розділ "Досвід роботи" -->
+      <section id="experience">
+        <h2>Досвід роботи</h2>
+        <div class="experience-card">
+          <h3>Фахівець-оператор</h3>
+          <p><strong>Компанія:</strong> Нова Пошта (2020 - 2021)</p>
+          <p>
+            Під час своєї професійної діяльності я розвинув відмінні
+            комунікативні навички...
+          </p>
+        </div>
+        <div class="experience-card">
+          <h3>Менеджер інтернет-магазину</h3>
+          <p><strong>Компанія:</strong> VitAutoPlast (2021 - 2023)</p>
+          <p>
+            Робота на приватного підприємця в інтернет-магазині, який займався
+            виробництвом автокомплектуючих...
+          </p>
+        </div>
+        <div class="experience-card">
+          <h3>Фахівець-оператор</h3>
+          <p><strong>Компанія:</strong> Нова Пошта (2023 - 2024)</p>
+          <p>
+            На посаді оператора відділення я значно покращив свої комунікаційні
+            навички...
+          </p>
+        </div>
+        <div class="experience-card">
+          <h3>Менеджер з продажів</h3>
+          <p><strong>Компанія:</strong> Call center (2024)</p>
+          <p>
+            Маючи досвід у продажах та високий рівень комунікації з клієнтами...
+          </p>
+        </div>
+      </section>
+
+      <!-- Розділ "Навички" -->
+      <section id="skills">
+        <h2>Навички</h2>
+        <div class="skills-grid">
+          <div class="skill">Комунікаційні навички</div>
+          <div class="skill">Організація робочих процесів</div>
+          <div class="skill">Стресостійкість</div>
+          <div class="skill">Управління персоналом</div>
+          <div class="skill">Продажі та допродажі</div>
+          <div class="skill">Навички самоорганізації</div>
+          <div class="skill">Робота з маркетплейсами</div>
+          <div class="skill">Робота з документацією та касою</div>
+          <div class="skill">Керівництво та управління проектами</div>
+          <div class="skill">Технічні навички</div>
+          <div class="skill">Пошук клієнтів та товарів</div>
+          <div class="skill">Увага до деталей</div>
+          <div class="skill">Складання XML-прайс-листів</div>
+          <div class="skill">Швидкий пошук інформації в інтернеті</div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Контактна інформація</h2>
+        <p>
+          <strong>Телефон:</strong>
+          <a href="tel:+380993979923">+38(099)397-99-23</a>
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:workspace.crow@tutamail.com"
+            >workspace.crow@tutamail.com</a
+          >
+        </p>
+
+        <h3>Залиште своє повідомлення</h3>
+        <form id="contact-form" class="mb-3">
+          <div class="mb-3">
+            <label for="name" class="form-label">Ваше ім'я:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Ваш email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Ваше повідомлення:</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Надіслати</button>
+        </form>
+        <div id="form-message" class="alert alert-success d-none" role="alert">
+          Повідомлення відправлено!
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Ворона Микола Геннадійович. Усі права захищені.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
